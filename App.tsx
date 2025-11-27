@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { parseVideoUrl } from './services/mockDownloaderService';
-import { VideoData } from './types';
-import { AdSlot } from './components/AdSlot';
-import { ResultCard } from './components/ResultCard';
-import { LinkIcon, LoaderIcon, SparklesIcon, GlobeIcon, TrashIcon, PasteIcon } from './components/ui/Icons';
+import { parseVideoUrl } from '@/services/mockDownloaderService';
+import { VideoData } from '@/types';
+import { AdSlot } from '@/components/AdSlot';
+import { ResultCard } from '@/components/ResultCard';
+import { LinkIcon, LoaderIcon, SparklesIcon, GlobeIcon, TrashIcon, PasteIcon } from '@/components/ui/Icons';
 
 type Language = 'en' | 'zh';
 
